@@ -36,3 +36,13 @@ To make sure all the input sentences eventually have the same length when they'r
 <img src="img/padding.PNG" width=400>
 
 <br/>
+
+### Why the pickled tokenizer is needed while loading the saved model
+
+During the training of the model, `fit_on_texts()` was utilized to update the internal vocabulary. <br/>
+When loading the trained model elsewhere, things will be messed up without loading the pickled tokenizer and the model will not work as expected. <br/>
+In other worsd, `fit_on_texts()` is like giving an 'identity' to each word (e.g. 1, 2, 3, 4 ...... while 0 is reserved for padding). If the model initially recognizes 1 as *happy* (training phase) , how could you expect it to recognize 20 as *happy* later (with new tokenizer) ?  <br/>
+For evidence, please refer to `Experiement.ipynb`. 
+
+<br/>
+<br/>

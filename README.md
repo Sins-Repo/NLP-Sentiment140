@@ -58,7 +58,7 @@ Removing stopwords, which is common words such as *'a, an, no, not ......'* , is
 
 <br/>
 
-The reason is that, NLTK stopwords removal removes some useful words from the input text. For instance, the input text *'I do not like durian'* will become *'I like durian'* after applying the NLTK stopwords removal. <br/><br/>
+The reason is that, NLTK stopwords removal removes some useful words from the input text. For instance, the input text *'I do not like durian'* will become *'I like durian'* after applying the NLTK stopwords removal. The meaning of the sentence is distorted. <br/><br/>
 
 # Conclusion
 

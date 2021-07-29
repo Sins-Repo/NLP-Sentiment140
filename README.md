@@ -9,7 +9,7 @@
 2. Lemmatization
 3. Tokenization
 4. Padding
-5. Training 
+5. Training (A simple Long Short-Term Memory network will be used in this example)
 6. Evaluation
 7. Prediction
 
@@ -20,4 +20,4 @@
 <br/>
 <br/>
 
-# Long Short-Term Memory
+# Pre-processing

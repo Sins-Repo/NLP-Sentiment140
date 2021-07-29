@@ -50,7 +50,7 @@ For evidence, please refer to `Experiement.ipynb`.
 
 # NLTK stopwords removal
 
-Removing stopwords, which is common words such as *a, an, no, not ......* , is a necessary pre-processing step. However, I ran an experiment without using NLTK stopwords removal and it shows an improvement in terms of accuracy. <br/>
+Removing stopwords, which is common words such as *'a, an, no, not ......'* , is a necessary pre-processing step. However, I ran an experiment without using NLTK stopwords removal and it shows an improvement in terms of accuracy. <br/>
 
 <img src="img/graph.PNG" width=400>
 
@@ -58,8 +58,8 @@ Removing stopwords, which is common words such as *a, an, no, not ......* , is a
 
 <br/>
 
-The reason is that, NLTK stopwords removal removes some useful words from the input text. For instance, the input text *I do not like durian* will become *I like durian* after applying the NLTK stopwords removal. <br/><br/>
+The reason is that, NLTK stopwords removal removes some useful words from the input text. For instance, the input text *'I do not like durian'* will become *'I like durian'* after applying the NLTK stopwords removal. <br/><br/>
 
 # Conclusion
 
-For improvement, a personal stopwords list may be constructed. Common words like *she, he, i* will be included in the list whereas words like *no, not* will be excluded because these words carry certain meaning which shouldn't be discarded from the input text.
+For improvement, a personal stopwords list may be constructed. Common words like *'she, he, i'* will be included in the list whereas words like *'no, not'* will be excluded because these words carry certain meaning which shouldn't be discarded from the input text.

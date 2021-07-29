@@ -1,5 +1,5 @@
 # NLP Pipeline
 
-<img src="img/pipeline.png" height=400 width=350>
+<img src="img/pipeline.png" height=450 width=350>
 
 1. Text cleaning

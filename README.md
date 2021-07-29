@@ -21,3 +21,12 @@
 <br/>
 
 # Pre-processing
+### Why Lemmatization
+
+Instead of simply cutting off the end or the beginning of a given word like Stemming does, Lemmatization takes care of the morphological analysis of the given word, meaning that it makes sure that the produced word is a dictionary word. 
+
+<img src="img/lemmatization.png" width=400>
+
+<br/>
+
+### Why Padding

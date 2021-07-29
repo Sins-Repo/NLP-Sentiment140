@@ -25,7 +25,7 @@
 
 Instead of simply cutting off the end or the beginning of a given word like Stemming does, Lemmatization takes care of the morphological analysis of the given word, meaning that it makes sure that the produced word is a dictionary word. 
 
-<img src="img/lemmatization.png" width=400>
+<img src="img/lemmatization.PNG" width=400>
 
 <br/>
 

@@ -30,3 +30,9 @@ Instead of simply cutting off the end or the beginning of a given word like Stem
 <br/>
 
 ### Why Padding
+
+To make sure all the input sentences eventually have the same length when they're being fed into the model.
+
+<img src="img/padding.PNG" width=400>
+
+<br/>

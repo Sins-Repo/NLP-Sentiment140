@@ -13,7 +13,9 @@
 6. Evaluation
 7. Prediction
 
-<img src="img/pipeline.png" height=500 width=320>
+<br/>
+
+<img src="img/pipeline.png" height=500 width=300>
 
 <br/>
 <br/>

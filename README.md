@@ -1,11 +1,11 @@
 # NLP Pipeline
 
-<img src="img/pipeline.png" height=500 width=350>
+<img src="img/pipeline.png" height=500 width=320>
 
 1. Text cleaning
-    i. Convert all characters to lower cases
-    ii. Remove punctuations
-    iii. Remove symbols & carriage return
-    iv. Remove numbers
-    v. Remove URL
+    1. Convert all characters to lower cases
+    2. Remove punctuations
+    3. Remove symbols & carriage return
+    4. Remove numbers
+    5. Remove URL
 2. 

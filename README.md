@@ -1,2 +1,5 @@
-# NLP-Sentiment140
-Tensorflow, Keras, Natural Language Processing, Python, LSTM
+# NLP Pipeline
+
+<img src="img/pipeline.PNG" height=400>
+
+1. Text cleaning

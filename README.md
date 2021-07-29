@@ -55,3 +55,11 @@ Removing stopwords, which is common words such as *a, an, no, not ......* , is a
 <img src="img/graph.PNG" width=400>
 
 <img src="img/classification_report.PNG" width=400>
+
+<br/>
+
+The reason is that, NLTK stopwords removal removes some useful words from the input text. For instance, the input text *I do not like durian* will become *I like durian* after applying the NLTK stopwords removal. <br/><br/>
+
+# Conclusion
+
+For improvement, a personal stopwords list may be constructed. Common words like *she, he, i* will be included in the list whereas words like *no, not* will be excluded because these words carry certain meaning which shouldn't be discarded from the input text.

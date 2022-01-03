@@ -62,4 +62,5 @@ The reason is that, NLTK stopwords removal removes some useful words from the in
 
 # Conclusion
 
-For improvement, a personal stopwords list may be constructed. Common words like *'she, he, i'* will be included in the list whereas words like *'no, not'* will be excluded because these words carry certain meaning which shouldn't be discarded from the input text.
+For improvement, a personal stopwords list may be constructed. Common words like *'she, he, i'* will be included in the list whereas words like *'no, not'* will be excluded because these words carry certain meaning which shouldn't be discarded from the input text. <br/>
+Visit [Mood-Collector](https://github.com/Sins-Repo/Mood-Collector/blob/master/README.md) for the application part
